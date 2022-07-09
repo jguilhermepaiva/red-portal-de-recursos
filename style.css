@@ -112,3 +112,31 @@ table h4{
     padding: 9px;
     font-size: .89vw;
 }
+
+@media (max-width:950px){
+    .face{
+        width: 100%;
+      
+    }
+    table h4{
+        padding: 1px;
+        font-size: 10px;
+    }
+    table img, table0 img{
+        padding: 20px 0 20px 0;
+        width: 400px;
+    }
+    table, table0{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    div{
+        width: 100%;
+        margin: 5px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+}
