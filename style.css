@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: SpringGreen;
+    color: white;
+    padding: 20px;
+}
+
+.texto-secundario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: MediumSlateBlue;
+    font-size: 30px;
+}
+
+
+
+table, table0{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+table div, table0 div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    
+}
+table img, table0 img{
+    padding: 19.7px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 67.5vh;
+}
+
+table0 img:hover .face{
+    
+}
+
+div{
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+#table0 div{
+    background-color: red;
+}
+
+.face{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform-style: preserve-3d;
+
+}
+
+#front{
+    background-color: springgreen; 
+    
+    transform: rotateY(180deg);
+}
+
+#back{
+    backface-visibility: hidden;
+    
+}
+
+
+
+#back table{
+    width: 100%;
+    background-color: MediumSlateBlue; 
+    
+    color: white;
+}
+
+.flip{
+    transform: rotateY(180deg);
+
+}
+
+.flip:hover .face {
+    transform: rotateY(180deg);
+
+  }
+
+#card{
+    display: flex;
+    
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+
+table h4{
+    padding: 9px;
+    font-size: .89vw;
+}
